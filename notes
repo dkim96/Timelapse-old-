@@ -1,0 +1,176 @@
+BUGS/FIX:
+- get rid of the pin title/sub when click!
+- PhotoV: sometimes does not load comments/likes/pic/user
+- PhotoV->ProfileV: no nav bar
+- Control the Nav Bar! *place hierarchy on tabV?
+- MainV: get rid of longpress pin
+- MainV: Sometimes crashes in the double array. (reimplement)
+
+TL v0.22 3/3
++ set data into VC2, got rid of photos, faster loading in general
++ pins now incorporate their user's profile pic
+
+notes to keep in mind:
+#1 implement new refresh system
+fix like and comment update
+create profile page
+
+new things:
+side scroller view
+favorites
+pages(huge project)
+pin stacking
+
+
+
+TL v0.21 2/26
++ Dictionary incorporates with rest of app, significant increase in speed at start.
++/- change in photoview, but alot of lag, also need to implement comments
+- need to add refresh for checking if new values have existed
+- how will segues work? ?????
+
+TL v0.20 2/25
++ map updates pins now, not clean
++ Added Dictionary of all values, 2before1, implement it in (AGAIN)
+
+TL 0.19 2/24
++ CENTRALIZATION/CLEANUP PHASE HAS BEGUN: move all components into Profile
++ Finished with Follower/Following, but DOUBTFUL* that all bugs are gone
++ Basic workings in PostVC, CAN START WORKING ON main.
+- Seeing other people's posts NO LONGER WORKS, Photos info in Profile, AND THEN fix this.'
+
+TL 0.18 2/23
+
+Finished with the PhotoView redesign with comments.
+
+Please work on cleaning up implementation!!!!!!
+
+TL v0.17 2/22
+General redesign with blu
+
+redigned photoviewer: now simply click on a pin and it will redirect to photo,
+issues: nav bar on profile redirect
+nav bar on photo when not wanted
+add comments
+
+next time: tvc mastery
+
+
+
+TL v0.16 2/17
+Added Spring, now can add fancy animations
+Where to go from here:
+1. learn DesignCode and understand how to make that app
+2. prototype your app and think out the whole process
+3. map mechanics, adding images, stacking and view, just general control
+4. eta ??? Brief periods during week 8 and 9 I guess, get alot of work done in between school work.
+
+
+TL v0.15 2/12
+Comments working
+Profile pictures shown for photo and profile view
+restarted parse servers to include prof pics
+
+TL 0.14 2/11
+Basic likes and comments interface
+still need to update
+tvc for likers
+comments in general
+
+weird bug with older photos not working with likes
+
+
+TL v0.13 2/5
++ username is now email
++ ability to access friends
+- work to make instant login with fb
+
+TL v0.12 2/5
++ Facebook integration part 1!!!!
+ now i must learn how to access your info hehehehehe ._.
+can access basic info, must learn how to access friends, and set up for signed up users.
+
+http://stackoverflow.com/questions/32031677/facebook-graph-api-get-request-should-contain-fields-parameter-swift-faceb
+
+token = CAAOe8fZAjPdkBADkzcS6BOtLnM0yHj4I8jPDFhAk1dEUT98tGl25SvIYTsY13hZAoHD1BiVVlk1oHHWVmX1xXy0ZCRnrZBwZAft2EL7BjOk7PioSKE07f3mY6qrIGwZAMlc9L4mT08rDL0XtCPoUlyv6aNdO5tGyBrBCBd85vCOZCtd0oJpYHuVZAZBr8YhpzdJRoI2VohsB3nDHLiCvbMnSlEfVMeYwWTt0qdclvNsxoGAZDZD
+token = 1133557269997535
+
+
+TL v0.11 2/3
++ little bug fixes.. hopeful array bounds fix, for now
++ status update
++ "camera" added to photo add"
++ span fix
++ icons added!
+
+freepik.com
+tab bar icons - 64px
+
+TL v0.10 2/1
++ Basic tab bar interface
+- navigation tab bar item blocking every other one
+
++ simple set up of scrollview
+1. Facebook integration
+2. Camera int
+3. learn Sketch.
+
+TL v0.9 1/28
++ users can now see photos linked to their annotations.
++ set up basic profile
+omg im almost done
+RIP PARSE 1/27/2017 WHAT AM I GONNA DO??!!?
+
+TL v0.8 1/27/2016
++ Dropping new pins now includes sending photos and captions
++ Redesigned + interface
++ Halfway into implementing seeing photos
+
+- really annoying array out of range
+LEARN HOW TO QUERY
+
+
+TL v0.7 1/26/2016
++ Got photos to work, links to parse and deletes afterwards.
+- next up: user profiles.
+
+TL v0.6 1/25/2016
++ self user gets red pins
++ now no longer overlaps when new pins added/refresh
++ viewdidappear allows pins to work at startup.
++ pins now have an i that segues to a view controller
+
+Goals:
+- Clean the app
+- Clicking on a pin leads to an action, hopefully a new viewcontroller DONE**
+- Tab bar
+- User profiles, list of their pins.
+- uploading, receiving photos from parse. DONE**
+- Fix map crash due to max span, overall map location fix
+- learn how to add photos. DONE**
+
+TL v0.5 1/24/2016
++ button load pins loads all pins connected from Parse
++ only recieve pins that you posted or from who you follow
+- doesnt work with viewdidload
+- doesnt refresh when new pin added
+- over shadows already added ones
+- messy, most likely ineffective
+
+goal: only get pins made by yourself and who you are following done
+
+TL v0.4 1/20/2016
++ Added Parse connectivity
++ Added users
++ Added option to add pins thru parse
+- still need to access and send it back to map
+
+TL v0.3 1/18/2016
++Added tabbar, nav bar
++ Fixed resolution issue
++ CustomPointAnnotations incorported
++ Can move and add new pins
+- Cannot add normal pins
+- Laggy
+- crashes over big span
+
